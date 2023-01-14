@@ -3,6 +3,9 @@
 ## Project/Goals
 My first SQL project 
 
+<!-- Adding pictures  -->
+<!-- ![description](location_of_image) -->
+
 ## Process
 ### (your step 1)
 ### (your step 2)
