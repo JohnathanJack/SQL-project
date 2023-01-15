@@ -32,7 +32,7 @@ Clean-Up 2: all_session table:
 - Moved transaction_id column beside the other transactions for clarity
 - Transformed city values that were '(not set)' or 'not available in demo dataset' to NULL
 - Transformed product_variant values that were '(not set)' to NULL
-- Removed duplicates at the end
+- Removed duplicates at the end by making full_visitor_id and product_sku as the unique key
 
 ```sql
 --Check if transaction_revenue is duplicated with total_transaction_revenue
