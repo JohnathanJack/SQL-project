@@ -14,7 +14,11 @@ My first SQL project
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
 ## Challenges 
-(discuss challenges you faced in the project)
+1. Cleaning the data for all the tables caused problems as there were a ton of missing values and of duplicated data.
+2. Learning what I can cut and what I had to infer to fill in the missing data
+3. Joining tables and seeing that there were values that should link but were not (ex: product_skus not in the product table)
+4. Determining the primary keys and trying to make them unique to link with other tables through a foreign key
+5. Understanding the data and what column represents what type of information
 
 ## Future Goals
-(what would you do if you had more time?)
+1. Learn more effective ways to distinguish between duplicated data so I could be more confident in the analysis portion. 
