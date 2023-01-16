@@ -23,11 +23,10 @@ GROUP BY city
 ORDER BY SUM(total_transaction_revenue) DESC;
 
 --For Country/City Combination
-SELECT 
-	country
+SELECT country
     ,city
 	,SUM(total_transaction_revenue)
-FROM updated_all_sessions
+FROM no_dup_all_sessions
 WHERE total_transaction_revenue IS NOT NULL 
 GROUP BY country, city
 ORDER BY SUM(total_transaction_revenue) DESC;
